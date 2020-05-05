@@ -1,0 +1,3 @@
+# Overview
+This application consists of steganography and image compression. The message insertion and extraction method uses a modification of the LSB and RPP methods with the RPE method. While the zip and unzip process in image compression using the LZW and huffman methods.
+<p>Images that can be processed in this application are images with bitmap format (* .bmp) and PNG format (* .png). Especially in image compression, the compressed image format will change according to the image compression method used. For example, an image with a bitmap format which compressed using the LZW method will generate a new compressed file with an additional format (.LmZWp). Whereas image compression using the huffman method will produce a new compressed file with the format (.huffz)
